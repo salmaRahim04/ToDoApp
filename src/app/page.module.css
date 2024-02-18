@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Rubik:wght@300&display=swap');
+.container{
+    font-family: 'Rubik', sans-serif;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: bold;
+
+}
+.slogan{
+    color: #726e6e;
+}
+.list li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.list li:hover {
+    text-decoration: underline;
+}
+
+.svg{
+    margin-left: -20px;
+    margin-right: -20px;
+
+}
+.buttonContainer {
+ background-color: #f96069;
+ margin: -10px;
+ text-align: center;
+ padding-top: 50px;
+ padding-bottom: 100px;
+
+}
+.intro{
+    text-align: center;
+}
+.expolreBtn{
+    background-color: #fff;
+    color: #f96069;
+    border:2px solid #fff;
+    margin-right: 20px;
+
+}
+
+.expolreBtn,.LogIn{
+    padding: 10px 60px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.LogIn{
+    background-color: #6074f9;
+    border:2px solid #6074f9;
+    color: #fff;
+}
+.exploreBtn:hover {
+    background-color: #f96069;
+    color: #fff;
+    border-color: #f96069;
+}
